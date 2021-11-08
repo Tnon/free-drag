@@ -1,0 +1,29 @@
+#app {
+    position: absolute;
+    width: calc(100% - 100px);
+    height: calc(100% - 150px);
+    top: 100px;
+}
+
+#app div {
+    width: 200px;
+    height: 200px;
+    color: #fff;
+    line-height: 200px;
+    text-align: center;
+    font-size: 30px;
+    cursor: move;
+    position: absolute;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    border: 1px solid green;
+    text-align: center;
+    line-height: 40px;
+    font-size: 15px;
+    background: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
